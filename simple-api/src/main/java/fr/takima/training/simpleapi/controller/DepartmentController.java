@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/departments")
 public class DepartmentController {
     private DepartmentService departmentService;
